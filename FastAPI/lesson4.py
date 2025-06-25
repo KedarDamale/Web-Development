@@ -1,4 +1,26 @@
 """
+Debugging not just in fastapi but in all programming
+
+when you hover over the number on the left side of code a red dot becomes visible if you click on the dot it will stay permanent untill you click that off again
+meaning of that dot is that dot is now the end line of the program means the program execution will stop at that dot and will not contunue further 
+which helps in debugging
+
+fastapi also provides default debugging at terminal , on docs and rdocs
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 FastAPI comes with **built-in, auto-generated interactive API documentation** that makes it extremely easy to:
 
 * Understand available endpoints

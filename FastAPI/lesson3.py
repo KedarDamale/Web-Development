@@ -39,7 +39,9 @@ def add(num1,num2):
 # to solve this we will use type hints which dont enforce types in vanilla python but they do in fastapi
 
 @app.get('/addint/{num1}/{num2}')
-def add(num1:int,num2:int):# FastAPI converts path parameters to int if specified
+def add(num1:int,num2:int):# FastAPI converts path parameters to int if specified, this parameter casting works exactly like int() and all so i
+                            #something that cant be converted to something it will trow erre e.g int('5') will be 5 but int('abc') will throw error 
+                            #just like that 
     return num1+num2 #now this will return 79
 
 
